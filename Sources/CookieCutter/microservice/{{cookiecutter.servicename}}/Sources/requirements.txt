@@ -7,4 +7,7 @@ flask-swagger-ui
 flask_cors
 gevent
 colorlog
-uWSGI
+#uWSGI
+cliff
+portalocker
+requests
