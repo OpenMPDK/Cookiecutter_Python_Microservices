@@ -1,0 +1,4 @@
+[{{cookiecutter.servicename}}]
+title={{cookiecutter.servicename}}
+description={{cookiecutter.description}}
+ports={{cookiecutter.serverport}}

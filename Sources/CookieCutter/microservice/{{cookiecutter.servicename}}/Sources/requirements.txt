@@ -1,0 +1,13 @@
+CommonLibrary
+flask_autoindex
+flask
+flask-restful
+flask-restful-swagger
+flask-swagger-ui
+flask_cors
+gevent
+colorlog
+#uWSGI
+cliff
+portalocker
+requests

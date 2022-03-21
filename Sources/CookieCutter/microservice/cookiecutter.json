@@ -1,0 +1,13 @@
+{
+    "servicename" : "TestService",
+    "description" : "A Test Service",
+    "servicecmdname" : "{{cookiecutter.servicename[:10]|lower}}",
+    "user" : "{{cookiecutter.servicename[:6]|lower}}",
+    "serverport" : "3486",
+    "packagename" : "{{cookiecutter.servicename|lower}}",
+    "urlsuffix" : "{{cookiecutter.servicename|lower}}",
+    "server_mode" : ["wsgi","flask"],
+    "venvname" : "{{cookiecutter.servicename|lower}}",
+    "create_local_venv" : ["No","Yes"],
+    "create_debpkg_scripts" : ["No","Yes"]
+}
