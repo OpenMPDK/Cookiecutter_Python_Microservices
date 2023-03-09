@@ -1,0 +1,20 @@
+"""
+Defines the error message and error code
+"""
+SINGLE_WORKER_ERROR_INVALID_VALUE_FOR_NAME = 5000
+SINGLE_WORKER_ERROR_TASK_QUEUES_NOT_SET = 5001
+SINGLE_WORKER_ERROR_TASK_PROCESSOR_NOT_SET = 5002
+SINGLE_WORKER_ERROR_BEFORE_START = 5003
+SINGLE_WORKER_ERROR_INVALID_WORKER_SPEC_PROPERTY = 5004
+SINGLE_WORKER_ERROR_INVALID_VALUE_ASSIGNED_FOR_TASK_HANDLERS = 5005
+SINGLE_WORKER_ERROR_CANNOT_SET_TASK_QUEUES_PROPERTY = 5006
+
+SingleWorkerErrorMessages = {
+    SINGLE_WORKER_ERROR_INVALID_VALUE_FOR_NAME: 'Invalid value provided for name : {0}',
+    SINGLE_WORKER_ERROR_TASK_QUEUES_NOT_SET: 'Cannot start worker, task queue is not set/assigned',
+    SINGLE_WORKER_ERROR_TASK_PROCESSOR_NOT_SET: 'Cannot start worker, no task processor(s) are assigned',
+    SINGLE_WORKER_ERROR_BEFORE_START: 'Error before starting worker, Details : {0}',
+    SINGLE_WORKER_ERROR_INVALID_WORKER_SPEC_PROPERTY: 'Invalid value {0} provided for worker spec. Details : {1}',
+    SINGLE_WORKER_ERROR_INVALID_VALUE_ASSIGNED_FOR_TASK_HANDLERS: 'Invalid value assigned for task handlers',
+    SINGLE_WORKER_ERROR_CANNOT_SET_TASK_QUEUES_PROPERTY: 'task_queues property is not settable'
+}

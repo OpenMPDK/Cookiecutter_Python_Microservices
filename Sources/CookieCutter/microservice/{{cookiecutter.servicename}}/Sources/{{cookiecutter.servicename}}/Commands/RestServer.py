@@ -1,6 +1,6 @@
 import logging
 from argparse import ArgumentTypeError
-from CommonLibrary.Cliff.Command import Command
+from Utils.Cliff.Command import Command
 
 def validate_url_prefix(value):
     """

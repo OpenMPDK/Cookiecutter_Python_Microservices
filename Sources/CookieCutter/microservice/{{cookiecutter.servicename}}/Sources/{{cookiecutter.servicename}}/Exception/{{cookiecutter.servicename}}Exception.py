@@ -1,4 +1,4 @@
-from CommonLibrary.Exception.BaseException import BaseException
+from Utils.Exception.BaseException import BaseException
 from {{cookiecutter.servicename}}.Errors.ErrorCodes import ErrorMessages
 
 class {{cookiecutter.servicename}}Exception(BaseException):

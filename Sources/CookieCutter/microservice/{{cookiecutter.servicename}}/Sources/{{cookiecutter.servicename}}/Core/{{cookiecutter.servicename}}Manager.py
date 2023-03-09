@@ -1,7 +1,7 @@
 from pkg_resources import resource_filename
 
-from CommonLibrary.Core.BaseObject import BaseObject
-from CommonLibrary.Core.Singleton import Singleton
+from Utils.Core.BaseObject import BaseObject
+from Utils.Core.Singleton import Singleton
 
 from {{cookiecutter.servicename}}.Exception.{{cookiecutter.servicename}}Exception import {{cookiecutter.servicename}}Exception
 from {{cookiecutter.servicename}} import __version__,__description__

@@ -3,7 +3,7 @@ from flask_restful_swagger import swagger
 
 from werkzeug.exceptions import BadRequest
 from {{cookiecutter.servicename}}.Exception.{{cookiecutter.servicename}}Exception import {{cookiecutter.servicename}}Exception
-from CommonLibrary.Errors.GenericError import GENERIC_ERR, NO_ERR
+from Utils.Errors.GenericError import GENERIC_ERR, NO_ERR
 from {{cookiecutter.servicename}}.Core.{{cookiecutter.servicename}}Manager import {{cookiecutter.servicename}}Manager
 
 class GetVersion(Resource):
