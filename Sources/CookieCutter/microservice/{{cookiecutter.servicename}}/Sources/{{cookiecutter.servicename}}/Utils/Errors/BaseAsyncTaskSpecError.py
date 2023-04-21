@@ -1,0 +1,16 @@
+"""
+Defines the error message and error code
+"""
+BASE_ASYNC_TASK_SPEC_ERROR_INVALID_TASK_TYPE = 4001
+BASE_ASYNC_TASK_SPEC_ERROR_JSON_READONLY = 4002
+BASE_ASYNC_TASK_SPEC_ERROR_TASK_DICT_READONLY = 4003
+BASE_ASYNC_TASK_SPEC_ERROR_TASK_TYPE_READONLY = 4004
+BASE_ASYNC_TASK_SPEC_ERROR_TASK_PARAMS_READONLY = 4005
+
+BaseAsyncTaskSpecErrorMessages = {
+    BASE_ASYNC_TASK_SPEC_ERROR_INVALID_TASK_TYPE: 'Invalid task type specified for task',
+    BASE_ASYNC_TASK_SPEC_ERROR_JSON_READONLY: 'taskspecjson is a readonly property',
+    BASE_ASYNC_TASK_SPEC_ERROR_TASK_DICT_READONLY: 'taskspec is a readonly property',
+    BASE_ASYNC_TASK_SPEC_ERROR_TASK_TYPE_READONLY: 'tasktype is a readonly property',
+    BASE_ASYNC_TASK_SPEC_ERROR_TASK_PARAMS_READONLY: 'taskparams is a readonly property'
+}

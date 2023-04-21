@@ -1,5 +1,5 @@
 import logging
-from CommonLibrary.Cliff.Command import Command
+from Utils.Cliff.Command import Command
 
 class GetVersionCommand(Command):
     'Get code version'

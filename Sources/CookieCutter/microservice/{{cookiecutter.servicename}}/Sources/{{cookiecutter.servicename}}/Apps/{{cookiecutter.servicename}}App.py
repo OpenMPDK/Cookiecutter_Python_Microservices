@@ -7,10 +7,10 @@ from pkg_resources import resource_filename
 from cliff.app import App
 from cliff.commandmanager import CommandManager
 
-from CommonLibrary.Core.ConfigManager import ConfigManager
-from CommonLibrary.Utils.PathUtils import get_abs_path
-from CommonLibrary.Utils.SysUtils import get_logged_in_user
-from CommonLibrary.Cliff.InteractiveApp import InteractiveApp
+from Utils.Core.ConfigManager import ConfigManager
+from Utils.Utils.PathUtils import get_abs_path
+from Utils.Utils.SysUtils import get_logged_in_user
+from Utils.Cliff.InteractiveApp import InteractiveApp
 
 from {{cookiecutter.servicename}} import __description__, __version__
 

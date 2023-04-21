@@ -17,11 +17,11 @@ from flask_cors import CORS
 from werkzeug.middleware.dispatcher import DispatcherMiddleware
 from gevent.pywsgi import WSGIServer
 
-from CommonLibrary.Core.BaseObject import BaseObject
-from CommonLibrary.Core.Singleton import Singleton
-from CommonLibrary.Utils.FileUtils import touch_file
-from CommonLibrary.Utils.SysUtils import get_logged_in_user
-from CommonLibrary.ServiceManagement.ServiceManager import ServiceManager
+from Utils.Core.BaseObject import BaseObject
+from Utils.Core.Singleton import Singleton
+from Utils.Utils.FileUtils import touch_file
+from Utils.Utils.SysUtils import get_logged_in_user
+from Utils.ServiceManagement.ServiceManager import ServiceManager
 
 from {{cookiecutter.servicename}}.Exception.{{cookiecutter.servicename}}Exception import {{cookiecutter.servicename}}Exception
 from {{cookiecutter.servicename}}.Errors.ErrorCodes import *
