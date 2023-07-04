@@ -41,9 +41,9 @@ This cookiecutter provides a ready-to-use template for a microservice for python
     - Users of this cookiecutter template needs to install the cookiecutter python package
         Python3 and PIP has to be installed prior to utilizing this cookie cutter
         - Linux users
-            - pip install cookiecutter --index-url=http://107.110.186.47:8081/repository/pypi-proxy/simple --trusted-host=107.110.186.47
+            - pip install cookiecutter --index-url=http://<ip>:8081/repository/pypi-proxy/simple --trusted-host=<ip>
         - Windows users
-            - python3 -m pip install cookiecutter --index-url=http://107.110.186.47:8081/repository/pypi-proxy/simple --trusted-host=107.110.186.47
+            - python3 -m pip install cookiecutter --index-url=http://<ip>:8081/repository/pypi-proxy/simple --trusted-host=<ip>
 
 ## Creating a new Service
     - Command line usage to create new service
@@ -158,10 +158,10 @@ This cookiecutter provides a ready-to-use template for a microservice for python
             - Windows / Linux
             ```shell
             cd Sources
-            (testscheduler) H:\src\TestScheduler\Sources>pip install wheel --upgrade --index-url=http://107.110.186.47:8081/repository/pypi-proxy/simple --trusted-host=107.110.186.47
-            Looking in indexes: http://107.110.186.47:8081/repository/pypi-proxy/simple
+            (testscheduler) H:\src\TestScheduler\Sources>pip install wheel --upgrade --index-url=http://<ip>:8081/repository/pypi-proxy/simple --trusted-host=<ip>
+            Looking in indexes: http://<ip>:8081/repository/pypi-proxy/simple
             Collecting wheel
-            Downloading http://107.110.186.47:8081/repository/pypi-proxy/packages/wheel/0.37.0/wheel-0.37.0-py2.py3-none-any.whl (35 kB)
+            Downloading http://<ip>:8081/repository/pypi-proxy/packages/wheel/0.37.0/wheel-0.37.0-py2.py3-none-any.whl (35 kB)
             Installing collected packages: wheel
             Successfully installed wheel-0.37.0
             WARNING: You are using pip version 20.1.1; however, version 21.2.4 is available.
